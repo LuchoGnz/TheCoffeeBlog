@@ -57,7 +57,6 @@ body {
     margin-left: 2%;
     margin-right: 2%;
     opacity: 0.9;
-    
 }
 
 .cafeterias img {
@@ -81,6 +80,7 @@ body {
     margin-right: 5%;
     padding: 30px;
     text-align: center;
+    margin-bottom: 1%;
 }
 
 h1 {
