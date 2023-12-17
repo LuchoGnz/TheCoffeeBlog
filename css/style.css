@@ -45,11 +45,9 @@ header img {
 
 body {
     background-image: url(../multimedia/cafe.jpg);
-    width: auto;
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
-    margin: 0;
 }
 
 .cafeterias {
@@ -103,70 +101,3 @@ footer img {
 }
 
 /* Reseñas */
-
-/* Contenedor Grid*/
-
-.contenedor-grid {
-    display: grid;
-    grid-template-areas:
-    "imagen1 comentario1 comentario1"
-    "imagen2 comentario2 comentario2"
-    "imagen3 comentario3 comentario3";
-    grid-template-columns: 400px 400px;
-    grid-template-rows: 250px 250px;
-    font-family: 'Nanum Myeongjo', serif;
-    color: white;
-}
-
-.contenedor-grid img{
-    width: 90%;
-    height: 90%;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
-.contenedor-grid p{
-    width: 95%;
-    height: 100%;
-    text-align: center;
-    justify-content: center;
-    margin-top: 50px;
-    margin-left: 30px;
-}
-.grid-img1{
-    grid-area: imagen1;
-}
-
-.grid-com1{
-    grid-area: comentario1;
-    background-color: #1f1d1d;
-    height: 90%;
-    width: 98%;
-    margin-top: 10px;
-    
-}
-
-.grid-img2{
-    grid-area: imagen2;
-}
-
-.grid-com2{
-    grid-area: comentario2;   
-    background-color: #1f1d1d;
-    height: 90%;
-    width: 98%;
-    margin-top: 10px;
-}
-
-.grid-img3{
-    grid-area: imagen3;
-}
-
-.grid-com3{
-    grid-area: comentario3; 
-    background-color: #1f1d1d;
-    height: 90%;
-    width: 98%;
-    margin-top: 10px;
-}
