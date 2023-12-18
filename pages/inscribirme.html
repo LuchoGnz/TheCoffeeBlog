@@ -51,6 +51,103 @@
           </nav>
         </header>
 
+        <section class="container">
+          <div class="row">
+            <div class="col" style="background: rgb(46, 46, 46); margin-top: 5rem; border-radius: 15px;" >
+              <div class="mb-3">
+                <h1 style="color: white;"> Registrar mi cafetería</h1>
+                <label for="exampleFormControlInput1" class="form-label" style="color:white; margin-top: 1rem;">Nombre de la Cafetería</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre cafeteria">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label" style="color:white;">Mail de contacto</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="mail@ejemplo.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label" style="color:white">Sobre tu Cafetería</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Historia, ubicación, menú, personal, ambiente, etc..." rows="9"></textarea>
+                
+              </div> 
+              <h4 style="color: white;"> Agrega imágenes a tu cafetería</h4>
+              <div class="input-group mb-3">
+                <input type="file" class="form-control" id="inputGroupFile02">
+                <label class="input-group-text" for="inputGroupFile02">Subir archivos</label>
+              </div>
+              <button type="button" class="btn btn-secondary" style="margin-bottom:2%; margin-top: 1%;">Enviar</button>
+            </div>
+          </div>
+              <div class="row" style="color: white" > 
+            <div class="col" style="background: rgb(46, 46, 46); margin-top: 5rem; margin-bottom: 5rem ; border-radius: 15px;" >
+              <h1 style="color: white;"> Registrarme como usuario</h1>
+              <form class="row g-3 needs-validation" novalidate >
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label"  style="margin-top: 3%;">Nombre/s</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="Juan" required>
+                  <div class="valid-feedback">
+                   Se ve bien!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label"  style="margin-top: 3%;">Apellido/s</label>
+                  <input type="text" class="form-control" id="validationCustom02" value="Perez" required>
+                  <div class="valid-feedback">
+                    Se ve bien!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label" style="margin-top: 3%;">Usuario</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Por favor escriba un nombre de usuario.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label">Ciudad</label>
+                  <input type="text" class="form-control" id="validationCustom03" required>
+                  <div class="invalid-feedback">
+                    Por favor escriba una ciudad válida.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom04" class="form-label">Provincia</label>
+                  <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Seleccione...</option>
+                    <option>...</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Por favor seleccione una provincia válida.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom05" class="form-label">Código Postal</label>
+                  <input type="text" class="form-control" id="validationCustom05" required>
+                  <div class="invalid-feedback">
+                    Por favor ingrese un código válido.
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Acepto los términos y condiciones.
+                    </label>
+                    <div class="invalid-feedback">
+                      Debes aceptar antes de enviar.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="button" class="btn btn-secondary" style="margin-bottom: 3%;">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
         <footer>
             <div>
                 <a href="https://instagram.com" target="_blank"><img src="../multimedia/ig2.png" alt="iglogo"></a>

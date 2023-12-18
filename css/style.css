@@ -89,6 +89,20 @@ h1 {
     padding-top: 25px;
 }
 
+h4 {
+    font-family: 'Nanum Myeongjo', serif;
+    color: white;
+}
+
+p{
+    font-family: 'Nanum Myeongjo', serif;
+    color: white;
+}
+
+label {
+    font-family: 'Nanum Myeongjo', serif;
+    color: white;
+}
 /* Footer*/
 
 footer {
